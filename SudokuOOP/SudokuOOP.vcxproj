@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{c2e9fe78-3a64-40d8-afbe-9b98c5cc0a64}</ProjectGuid>
-    <RootNamespace>Sudoku</RootNamespace>
+    <ProjectGuid>{c2e03732-2e29-4da3-8751-029781d021c7}</ProjectGuid>
+    <RootNamespace>SudokuOOP</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -123,11 +123,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\Sudoku2\SudokuOOP\board.h" />
+    <ClCompile Include="board.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\Sudoku2\SudokuOOP\board.cpp" />
-    <ClCompile Include="..\Sudoku2\SudokuOOP\main.cpp" />
+    <ClInclude Include="board.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
